@@ -92,7 +92,6 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-
 }
 
 .header {
@@ -114,6 +113,12 @@ body {
     display: flex;
 }
 
+.header-logo:hover {
+    background: url(./img/flower_icon.png) 50% 20% no-repeat;
+    background-size: 40%;
+    line-height: 115px;
+}
+
 .header-menu {
     display: flex;
     justify-content: space-between;
@@ -127,6 +132,10 @@ body {
     line-height: 42px;
     list-style-type: none;
     text-decoration: none;
+}
+
+.header-menu a:hover {
+    text-shadow: 2px 3px 0 #787878;
 }
 
 .content {
@@ -175,6 +184,11 @@ body {
     display: inline-block;
     border-radius: 15px;
     padding: 18px 90px;
+}
+
+.thanks-button:hover {
+    box-shadow: 0 0 12px 6px #9595A2;
+    padding: 22px 92px;
 }
 
 .thanks-button a {
@@ -347,6 +361,10 @@ body {
     margin-top: 18px;
 }
 
+.bouquets-columns p:hover {
+    box-shadow: 0 0 12px 6px rgba(149, 149, 162, 0.56);
+}
+
 .bouquets-circle {
     display: flex;
     flex-direction: row;
@@ -374,6 +392,10 @@ body {
 .bouquets-circle {
     display: flex;
     justify-content: space-around;
+}
+
+.bouquets-circle :hover {
+    box-shadow: 0 0 12px 6px rgba(149, 149, 162, 0.56);
 }
 
 .bouquets-circle input[type=radio] {
@@ -491,17 +513,20 @@ body {
     border-radius: 10px;
     margin-bottom: 10px;
 }
-.figure{
+
+.figure {
     margin-top: -63px;
     margin-bottom: 18px;
     margin-left: 90%;
 }
-.field-sqr{
+
+.field-sqr {
     width: 45px;
     height: 45px;
     background: #FFABAC;
     border-radius: 10px;
 }
+
 .field-triangle {
     width: 0;
     height: 0;
@@ -544,6 +569,10 @@ body {
     text-decoration: none;
 }
 
+.footer-menu li a:hover {
+    text-shadow: 2px 3px 0 rgba(0, 0, 0, 0.25);
+}
+
 .logo {
     font-weight: bold;
 }
@@ -580,7 +609,8 @@ body {
     .checkout-btn {
         margin: 65px auto 0;
     }
-    .figure{
+
+    .figure {
         margin-left: 92%;
     }
 }
